@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tola-adelase.github.io/sitemap.xml
