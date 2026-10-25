@@ -1,5 +1,6 @@
 (()=>{'use strict';const dialog=document.getElementById('workspace'),search=document.getElementById('workspace-search'),items=document.getElementById('workspace-items'),count=document.getElementById('workspace-count');let category='all';
 const entries=[
+ {kind:'profile',title:'Off duty. Still Tola.',desc:'Liverpool, film, music, writing—and a five-shot penalty challenge.',url:'#beyond',tags:'personal interests football play game soft life'},
  {kind:'project',title:'Football Match Lab',desc:'Three matches. Compare players, minutes, per-90 rates and shot zones.',url:'football-match-lab.html',tags:'football interactive python javascript'},
  {kind:'project',title:'The conversion question',desc:'A/B testing, uncertainty and a landing-page launch decision.',url:'ab-testing-case-study.html',tags:'experiment statistics conversion udacity'},
  {kind:'project',title:'Themes between the words',desc:'A critical comparison of LDA, LSA and HDP topic models.',url:'topic-modelling-case-study.html',tags:'nlp text topics python'},
