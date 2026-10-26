@@ -83,3 +83,9 @@ html[data-theme=light]{--bg:#eaeaea;--fg:#222;--muted:#666;--line:#c5c5c5;--surf
 .personal-art.culture-art>span:nth-child(2){color:#137f7d}
 .personal-art.culture-art>span:nth-child(3){color:#c57429}
 .personal-art.words-art{background:#dcece5;color:#24664e}
+
+/* Clear article actions without decorative link rules. */
+.personal-content a,.featured-writing>a{border-bottom:0!important;text-decoration:none!important;box-shadow:none!important;background-image:none!important}
+.personal-content a::after,.featured-writing>a::after{display:none!important}
+.personal-content a:hover,.featured-writing>a:hover{opacity:.72}
+.essay-read{display:block;margin-top:22px;font-size:14px;font-weight:600}
