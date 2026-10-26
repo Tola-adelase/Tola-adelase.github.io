@@ -59,3 +59,5 @@ html[data-theme=light]{--bg:#eaeaea;--fg:#222;--muted:#666;--line:#c5c5c5;--surf
 .desktop-shortcut:hover .play-icon svg,.desktop-shortcut:focus-visible .play-icon svg{animation:icon-ball .85s ease 1}
 }
 @media(prefers-reduced-motion:reduce){.desktop-shortcut .shortcut-art,.desktop-shortcut .shortcut-art svg{animation:none!important;transition:none!important}}
+
+.contact-email{border-bottom:0}
