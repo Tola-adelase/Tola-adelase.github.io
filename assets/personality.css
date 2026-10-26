@@ -28,3 +28,5 @@ html[data-theme=light] .portfolio-studio dialog .workspace-filters button[aria-p
 
 /* Final mobile reading pass. */
 @media(max-width:700px){.eyebrow,.num,.column-label{font-size:10px!important;line-height:1.6}.essay-meta{font-size:10px!important;line-height:1.7}.essay p,.project-info p,.card-body p{font-size:14px!important;line-height:1.8}.essay-grid{grid-template-columns:1fr}.professional-note .project-caveat{font-size:12px!important}}
+
+#writing>.sectionhead{display:block;text-align:center;max-width:720px;margin-left:auto;margin-right:auto}#writing>.sectionhead>div{width:100%}#writing>.sectionhead .eyebrow{justify-content:center}#writing>.sectionhead>p{max-width:56ch;margin:20px auto 0;text-align:center}#writing .featured-writing{text-align:center}#writing .featured-writing>p{margin-left:auto;margin-right:auto}#writing>p:last-child{text-align:center}
