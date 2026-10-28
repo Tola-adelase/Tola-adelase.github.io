@@ -64,3 +64,36 @@ html[data-theme=light] .portfolio-studio nav .links a:hover,html[data-theme=ligh
 .personal-content a::after,.featured-writing>a::after{display:none!important}
 .personal-content a:hover,.featured-writing>a:hover{opacity:.72}
 .essay-read{display:block;margin-top:22px;font-size:14px;font-weight:600}
+
+/* October polish: readable type and consistent interaction. */
+h1,h2,h3{text-wrap:balance}
+.personal-content p,.essay p,.featured-writing p{text-wrap:pretty}
+.personal-content strong{display:block;color:inherit;font-size:12px;letter-spacing:.07em;text-transform:uppercase;margin:22px 0 7px}
+.personal-content p:first-child strong{margin-top:4px}
+.personal-card{border-radius:12px}
+.personal-art{border-radius:6px}
+.personal-content a,.featured-writing>a,.essay-read{display:inline-flex;align-items:center;min-height:44px;font-weight:600}
+.essay-read{margin-top:16px}
+.personal-label{font-size:10px;letter-spacing:.08em}
+.personal-prompt{font-size:12px}
+.personal-content{line-height:1.85}
+.skill-evidence summary{min-height:64px}
+.personal-card:focus-within,.skill-evidence:focus-within{border-color:currentColor}
+@media(hover:hover) and (prefers-reduced-motion:no-preference){
+.personal-card:hover .lfc-crest{transform:translateY(-4px)}
+.lfc-crest{transition:transform .3s ease}
+.essay-read{transition:transform .2s ease}
+.essay:hover .essay-read{transform:translateX(4px)}
+}
+@media(prefers-reduced-motion:reduce){
+html{scroll-behavior:auto!important}
+*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+}
+
+.portfolio-studio .about p:not(.lead),.portfolio-studio .projectcopy p,.portfolio-studio .essay p{line-height:1.85}
+.portfolio-studio .about .lead{max-width:34ch}
+.portfolio-studio .eyebrow,.portfolio-studio .num{letter-spacing:.12em}
+.portfolio-studio .essay h3{line-height:1.2;letter-spacing:-.025em}
+.portfolio-studio .workspace-dock{bottom:max(18px,env(safe-area-inset-bottom))}
+.portfolio-studio .workspace-dock :is(a,button):focus-visible{outline:2px solid currentColor;outline-offset:2px;border-radius:10px}
+.portfolio-studio :is(.featured-writing,.essay,.tola-definition){scroll-margin-top:30px}
