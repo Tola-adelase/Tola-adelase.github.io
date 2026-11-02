@@ -131,3 +131,11 @@ html{scroll-behavior:auto!important}
 .personal-content{font-size:14px}
 .window-content{scroll-padding-bottom:32px}
 }
+
+/* Keep article metadata and its action on separate, centred rows. */
+#writing .essay .essay-meta{display:block;text-align:center;line-height:1.7}
+#writing .essay .essay-read{display:flex;justify-content:center;align-items:center;width:100%;margin:16px auto 0;text-align:center}
+#writing .featured-writing>a{justify-content:center;min-height:44px;padding-bottom:0}
+#writing .essay:hover .essay-read{transform:none}
+#writing .essay:focus-visible{outline:2px solid currentColor;outline-offset:5px}
+@media(max-width:600px){#writing .essay{padding:24px 20px}#writing .essay h3{overflow-wrap:break-word}#writing .essay .num{line-height:1.8}}

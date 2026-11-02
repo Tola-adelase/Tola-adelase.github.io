@@ -97,3 +97,11 @@ html{scroll-behavior:auto!important}
 .portfolio-studio .workspace-dock{bottom:max(18px,env(safe-area-inset-bottom))}
 .portfolio-studio .workspace-dock :is(a,button):focus-visible{outline:2px solid currentColor;outline-offset:2px;border-radius:10px}
 .portfolio-studio :is(.featured-writing,.essay,.tola-definition){scroll-margin-top:30px}
+
+/* Keep article metadata and its action on separate, centred rows. */
+#writing .essay .essay-meta{display:block;text-align:center;line-height:1.7}
+#writing .essay .essay-read{display:flex;justify-content:center;align-items:center;width:100%;margin:16px auto 0;text-align:center}
+#writing .featured-writing>a{justify-content:center;min-height:44px;padding-bottom:0}
+#writing .essay:hover .essay-read{transform:none}
+#writing .essay:focus-visible{outline:2px solid currentColor;outline-offset:5px}
+@media(max-width:600px){#writing .essay{padding:24px 20px}#writing .essay h3{overflow-wrap:break-word}#writing .essay .num{line-height:1.8}}
