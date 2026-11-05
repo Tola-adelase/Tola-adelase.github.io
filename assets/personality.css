@@ -179,3 +179,33 @@ html[data-theme=light]{--accent-mint:#32604d;--accent-blue:#335d91;--accent-lila
 .penalty-lounge .shot-controls button:focus-visible{outline:2px solid #fff;outline-offset:3px}
 .penalty-lounge #shot-result{color:#e0eee6}
 .penalty-lounge .shot-history{color:#f1d594}
+
+/* Colour feedback for pointer, keyboard and touch interactions. */
+.mood-controls button[data-mood="data"]{--control-bg:#c5e5d9;--control-ink:#183e35}
+.mood-controls button[data-mood="words"]{--control-bg:#cadff5;--control-ink:#24476e}
+.mood-controls button[data-mood="play"]{--control-bg:#e0d1f3;--control-ink:#4f326f}
+.mood-controls #shuffle-mood{--control-bg:#f5df9d;--control-ink:#614810}
+.mood-controls button[aria-pressed="true"],.mood-controls button:focus-visible,.mood-controls button:active{background:var(--control-bg);color:var(--control-ink);border-color:var(--control-bg)}
+#contact :is(a,button){--control-bg:#c5e5d9;--control-ink:#183e35;border-radius:7px}
+#contact a[href*="linkedin"]{--control-bg:#cadff5;--control-ink:#24476e}
+#contact a[href*="github"]{--control-bg:#e0d1f3;--control-ink:#4f326f}
+#contact a[download]{--control-bg:#f5df9d;--control-ink:#614810}
+#contact button[data-open="guestbook"]{--control-bg:#f2d1df;--control-ink:#773c56}
+#contact :is(a,button):focus-visible,#contact :is(a,button):active{background:var(--control-bg);color:var(--control-ink);border-color:var(--control-bg);outline:2px solid currentColor;outline-offset:4px}
+.personal-card[open]{border-color:var(--accent-lilac)}
+.skill-evidence[open]{border-color:var(--accent-mint)}
+.skill-evidence[open] summary{background:color-mix(in srgb,var(--accent-mint) 12%,transparent)}
+.project-filters button:focus-visible,.project-filters button:active{background:#c5e5d9;color:#183e35}
+@media(hover:hover){
+.mood-controls button:hover{background:var(--control-bg);color:var(--control-ink);border-color:var(--control-bg)}
+#contact :is(a,button):hover{background:var(--control-bg);color:var(--control-ink);border-color:var(--control-bg)}
+#contact:hover h2{color:var(--accent-mint)}
+.personal-card:hover{border-color:var(--accent-lilac)}
+.skill-evidence:hover{border-color:var(--accent-mint)}
+.project-filters button:hover{background:#cadff5;color:#24476e}
+}
+#contact:focus-within h2{color:var(--accent-mint)}
+@media(prefers-reduced-motion:no-preference){
+.mood-controls button,#contact :is(a,button),#contact h2,.skill-evidence summary{transition:background-color .2s,color .2s,border-color .2s,transform .2s}
+.mood-controls button:active,#contact :is(a,button):active{transform:translateY(1px)}
+}
