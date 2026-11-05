@@ -105,3 +105,23 @@ html{scroll-behavior:auto!important}
 #writing .essay:hover .essay-read{transform:none}
 #writing .essay:focus-visible{outline:2px solid currentColor;outline-offset:5px}
 @media(max-width:600px){#writing .essay{padding:24px 20px}#writing .essay h3{overflow-wrap:break-word}#writing .essay .num{line-height:1.8}}
+
+/* Selected work: restrained colour on the classic laptop layout. */
+.portfolio-studio #projects .sectionhead h2 em{color:#a9d6c3}
+.portfolio-studio #projects .lab-feature{background:#dcece4;color:#142c24;border:1px solid #91b7a4}
+.portfolio-studio #projects .lab-feature :is(.eyebrow,p){color:#3b5d4d}
+.portfolio-studio #projects .lab-feature .tag{color:#294c3b;border-color:#94b4a4}
+.portfolio-studio #projects .lab-art{background:linear-gradient(145deg,#173e35,#24564a);border-color:#578271;color:#f2faf5}
+.portfolio-studio #projects .lab-art :is(i,p,div){color:#bfdccd}
+.portfolio-studio #projects .pitch{background:#192e30;color:#e9f6f4}
+.portfolio-studio #projects .track{background:#30484a}
+.portfolio-studio #projects .track i{background:#87c7ba}
+.portfolio-studio #projects .chart-note{color:#bdd4d0}
+.portfolio-studio #projects .preview-ab{background:#e4e9f6;color:#273751}
+.portfolio-studio #projects .mini-track{background:#bdc9e2}
+.portfolio-studio #projects .mini-track i{background:#4b639c}
+.portfolio-studio #projects .conversion-chart>div+div i{background:#8295bd}
+.portfolio-studio #projects .preview-nlp{background:#eae0f0;color:#50355e}
+.portfolio-studio #projects .topic-cloud span{border-color:#b6a0c5}
+.portfolio-studio #projects .topic-cloud span:nth-child(3n){background:#cfbbdd}
+html[data-theme=light] .portfolio-studio #projects .sectionhead h2 em{color:#32604d}
