@@ -221,3 +221,12 @@ html[data-theme=light]{--accent-mint:#32604d;--accent-blue:#335d91;--accent-lila
 .mood-controls button,#contact :is(a,button),#contact h2,.skill-evidence summary{transition:background-color .2s,color .2s,border-color .2s,transform .2s}
 .mood-controls button:active,#contact :is(a,button):active{transform:translateY(1px)}
 }
+
+/* Work CTA: warm gold interaction feedback. */
+.hero-actions .primary,.portfolio-studio .hero .actions a.btn[href="#projects"]{border:1px solid #b8934c}
+.hero-actions .primary:is(:focus-visible,:active),.portfolio-studio .hero .actions a.btn[href="#projects"]:is(:focus-visible,:active){background:#f5df9d;color:#614810;border-color:#d3b661;opacity:1;outline:2px solid #b8934c;outline-offset:4px}
+@media(hover:hover){.hero-actions .primary:hover,.portfolio-studio .hero .actions a.btn[href="#projects"]:hover{background:#f5df9d;color:#614810;border-color:#d3b661;opacity:1}}
+@media(prefers-reduced-motion:no-preference){
+.hero-actions .primary,.portfolio-studio .hero .actions a.btn[href="#projects"]{transition:background-color .2s,color .2s,border-color .2s,transform .2s}
+.hero-actions .primary:active,.portfolio-studio .hero .actions a.btn[href="#projects"]:active{transform:translateY(1px)}
+}
