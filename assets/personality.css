@@ -125,3 +125,32 @@ html{scroll-behavior:auto!important}
 .portfolio-studio #projects .topic-cloud span{border-color:#b6a0c5}
 .portfolio-studio #projects .topic-cloud span:nth-child(3n){background:#cfbbdd}
 html[data-theme=light] .portfolio-studio #projects .sectionhead h2 em{color:#32604d}
+
+/* A coordinated accent palette, with readable light-theme alternatives. */
+:root{--accent-mint:#a9d6c3;--accent-blue:#abcaf1;--accent-lilac:#cdb5ea;--accent-gold:#eac88d;--accent-pink:#edb3c6}
+html[data-theme=light]{--accent-mint:#32604d;--accent-blue:#335d91;--accent-lilac:#70458b;--accent-gold:#795514;--accent-pink:#98445e}
+.skill-evidence:nth-child(1) .skill-illustration{color:#183e35;background:#c5e5d9;border-color:#83b5a2}
+.skill-evidence:nth-child(2) .skill-illustration{color:#614810;background:#f5df9d;border-color:#d3b661}
+.skill-evidence:nth-child(3) .skill-illustration{color:#4f326f;background:#e0d1f3;border-color:#b89cd5}
+.skill-evidence:nth-child(4) .skill-illustration{color:#24476e;background:#cadff5;border-color:#91b5d9}
+.skill-evidence:nth-child(5) .skill-illustration{color:#763f23;background:#f3d5bd;border-color:#d6aa88}
+.skill-evidence:nth-child(6) .skill-illustration{color:#773c56;background:#f2d1df;border-color:#d49cb4}
+.skill-evidence summary:focus-visible{outline-color:var(--accent-lilac)}
+.personal-content strong{color:var(--accent-lilac)}
+#writing .featured-writing>.eyebrow{color:var(--accent-mint)}
+#writing .featured-writing{border-top:3px solid var(--accent-mint)}
+#writing .essay{border-top:3px solid var(--accent-lilac)}
+#writing .essay-read{color:var(--accent-lilac)}
+
+.portfolio-studio .tola-definition{border-top:3px solid var(--accent-lilac)}
+.portfolio-studio .tola-definition h3>span{color:var(--accent-lilac)}
+.portfolio-studio .workspace-dock a[href="#projects"]>span{color:var(--accent-gold)}
+.portfolio-studio .workspace-dock a[href="football-match-lab.html"]>span{color:var(--accent-mint)}
+.portfolio-studio .workspace-dock a[href="#writing"]>span{color:var(--accent-blue)}
+.portfolio-studio .workspace-dock button>span{color:var(--accent-lilac)}
+.portfolio-studio .workspace-dock a[href="#contact"]>span{color:var(--accent-pink)}
+.portfolio-studio nav .links a[href="#about"]:hover{color:var(--accent-lilac)}
+.portfolio-studio nav .links a[href="#projects"]:hover{color:var(--accent-gold)}
+.portfolio-studio nav .links a[href="#writing"]:hover{color:var(--accent-blue)}
+.portfolio-studio #contact h2 em{color:var(--accent-mint)}
+.portfolio-studio .timeline-entry{border-left-color:var(--accent-lilac)}
