@@ -154,3 +154,28 @@ html[data-theme=light]{--accent-mint:#32604d;--accent-blue:#335d91;--accent-lila
 .portfolio-studio nav .links a[href="#writing"]:hover{color:var(--accent-blue)}
 .portfolio-studio #contact h2 em{color:var(--accent-mint)}
 .portfolio-studio .timeline-entry{border-left-color:var(--accent-lilac)}
+
+/* Stoppage time: a colourful pitch and clear controls. */
+.penalty-lounge{background:#dcece4;color:#183c30;border:1px solid #94b6a5;border-radius:12px}
+.penalty-lounge .penalty-copy h3{color:#183c30}
+.penalty-lounge .penalty-copy h3 em{color:#34745b}
+.penalty-lounge .penalty-copy :is(p,.eyebrow){color:#3e6052}
+.penalty-lounge #reset-shootout{background:#f3faf6;color:#204e3b;border:1px solid #87ad98;min-height:44px}
+.penalty-lounge .penalty-game{background:#142e28;color:#edf8f1;border:1px solid #497465;border-radius:10px}
+.penalty-lounge .game-score{border-bottom:1px solid #497465;padding-bottom:12px}
+.penalty-lounge #goal-count{color:#f1d594}
+.penalty-lounge #shot-count{color:#c3dfcf}
+.penalty-lounge .goal-scene{background:repeating-linear-gradient(90deg,#245a42 0 52px,#2a644a 52px 104px);border-radius:8px}
+.penalty-lounge .goal-net{border-color:#f1f6ef;background:repeating-linear-gradient(90deg,transparent 0 24px,#c5dfd15c 24px 25px),repeating-linear-gradient(0deg,transparent 0 24px,#c5dfd15c 24px 25px)}
+.penalty-lounge .pitch-arc{border-color:#d5ead4}
+.penalty-lounge .keeper{background:linear-gradient(90deg,transparent 0 30%,#e9b75c 30% 70%,transparent 70%)}
+.penalty-lounge .keeper:before{background:#f4d8bb}
+.penalty-lounge .keeper:after{background:#e9b75c}
+.penalty-lounge .game-ball{color:#fff}
+.penalty-lounge .shot-controls button{background:#d1e2f7;color:#203e69;border:1px solid #9dbadf;min-height:44px;font-size:12px;border-radius:7px}
+.penalty-lounge .shot-controls button:nth-child(2){background:#dfd4f1;color:#51376c;border-color:#b7a1d5}
+.penalty-lounge .shot-controls button:nth-child(3){background:#f0d8b7;color:#69451d;border-color:#d4b17e}
+.penalty-lounge .shot-controls button:hover:not(:disabled){filter:brightness(1.08)}
+.penalty-lounge .shot-controls button:focus-visible{outline:2px solid #fff;outline-offset:3px}
+.penalty-lounge #shot-result{color:#e0eee6}
+.penalty-lounge .shot-history{color:#f1d594}
