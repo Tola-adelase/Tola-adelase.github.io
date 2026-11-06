@@ -243,3 +243,32 @@ html[data-theme=light]{--accent-mint:#32604d;--accent-blue:#335d91;--accent-lila
 @media(hover:hover){.toolkit-strip:hover .toolkit-track{animation-play-state:paused}}
 @media(max-width:600px){.project-evidence>div{grid-template-columns:1fr;gap:2px}.project-evidence{gap:14px}.project-evidence dt{font-size:11px}.project-evidence dd{font-size:14px}.project-actions{flex-wrap:wrap;gap:14px}.contact-email{max-width:100%;overflow-wrap:anywhere}}
 @media(prefers-reduced-motion:reduce){.toolkit-track{animation:none!important;transform:none!important}}
+
+/* Work window: project colours in phone and tablet layouts, in both themes. */
+#panel-work .panel-heading em{color:var(--accent-mint)}
+#panel-work .valuation-art{background:#173e3b;color:#d9f3eb;border-color:#478a7c}
+#panel-work .mini-bars i{background:#8ed5bd}
+#panel-work .mini-bars i:nth-child(even){background:#b4e5d5}
+#panel-work .experiment-art{background:#dce9fa;color:#24476f;border-color:#9fbde2}
+#panel-work .nlp-art{background:#e9ddf4;color:#533869;border-color:#b99acc}
+#panel-work .nlp-art i{border-color:#b99acc;background:#ffffff40}
+#panel-work .nlp-art i:nth-child(even){background:#d7c1e9}
+#panel-work .lab-preview{border-color:#6b9f87;background:#deeee4}
+#panel-work .preview-caption{background:#deeee4;color:#234b3b;border-color:#a5c5b3}
+#panel-work .preview-caption button{color:#234b3b;border-color:#6b9f87}
+#panel-work .lab-preview-image img{filter:none}
+#lab-preview-dialog .preview-figure img{filter:none}
+#panel-work .project-card{--project-accent:var(--accent-mint)}
+#panel-work .project-card:has(.valuation-art){--project-accent:var(--accent-mint)}
+#panel-work .project-card[data-kind="statistics"]{--project-accent:var(--accent-blue)}
+#panel-work .project-card[data-kind="nlp"]{--project-accent:var(--accent-lilac)}
+#panel-work .project-info>.eyebrow{color:var(--project-accent)}
+#panel-work .project-actions a:first-child{color:var(--project-accent);text-decoration:none}
+#panel-work .project-actions a:focus-visible{outline-color:var(--project-accent)}
+@media(hover:hover){#panel-work .project-actions a:hover{color:var(--project-accent);text-decoration:underline;text-underline-offset:5px}}
+@media(max-width:1199px){
+#panel-work .project-card{border:1px solid var(--line);border-top:3px solid var(--project-accent);border-radius:12px;overflow:hidden;background:var(--surface)}
+#panel-work .project-art,#panel-work .lab-preview{border-radius:0;border-width:0 0 1px}
+#panel-work .project-info{padding:20px 18px 24px}
+#panel-work .lab-spotlight{padding-bottom:0;gap:0}
+}
