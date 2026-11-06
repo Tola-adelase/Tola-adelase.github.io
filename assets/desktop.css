@@ -230,3 +230,16 @@ html[data-theme=light]{--accent-mint:#32604d;--accent-blue:#335d91;--accent-lila
 .hero-actions .primary,.portfolio-studio .hero .actions a.btn[href="#projects"]{transition:background-color .2s,color .2s,border-color .2s,transform .2s}
 .hero-actions .primary:active,.portfolio-studio .hero .actions a.btn[href="#projects"]:active{transform:translateY(1px)}
 }
+
+/* Consistent project evidence and quieter reading interactions. */
+.project-evidence{margin:20px 0 24px;text-align:left;display:grid;gap:12px;min-width:0}
+.project-evidence>div{display:grid;grid-template-columns:76px minmax(0,1fr);gap:12px}
+.project-evidence dt{font:600 11px/1.7 monospace;letter-spacing:.04em;color:var(--muted);padding-top:2px}
+.project-evidence dd{margin:0;font-size:14px;line-height:1.7;overflow-wrap:anywhere;color:inherit}
+.project-evidence>div:last-child{border-top:1px solid var(--line);padding-top:12px}
+.professional-note{border-left:3px solid var(--accent-lilac,#a990bc)}
+:where(a,button,summary,input):focus-visible{outline:2px solid var(--accent-blue,#abcaf1);outline-offset:4px}
+.toolkit-strip:focus-within .toolkit-track{animation-play-state:paused}
+@media(hover:hover){.toolkit-strip:hover .toolkit-track{animation-play-state:paused}}
+@media(max-width:600px){.project-evidence>div{grid-template-columns:1fr;gap:2px}.project-evidence{gap:14px}.project-evidence dt{font-size:11px}.project-evidence dd{font-size:14px}.project-actions{flex-wrap:wrap;gap:14px}.contact-email{max-width:100%;overflow-wrap:anywhere}}
+@media(prefers-reduced-motion:reduce){.toolkit-track{animation:none!important;transform:none!important}}
