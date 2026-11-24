@@ -51,8 +51,6 @@ html[data-theme=light] .portfolio-studio nav .links a:hover,html[data-theme=ligh
 @media(max-width:700px){.tola-definition{padding:22px;margin-bottom:28px}.tola-definition h3{font-size:50px!important}.tola-definition li{font-size:14px;padding-left:3px}.skill-illustration{width:34px;height:34px}.skill-evidence summary{gap:12px}.learning-footnote{font-size:13px}}
 
 /* Off-duty colour accents */
-.personal-art.football-art{background:#f6dedf;color:#a91022;gap:14px}
-.personal-art.football-art .lfc-crest{width:82px;height:106px;object-fit:contain;filter:none}
 .personal-art.slow-art{background:#f3e6cf;color:#715124}
 .personal-art.culture-art{background:#e8e1f5;color:#624591}
 .personal-art.culture-art>span:nth-child(2){color:#137f7d}
